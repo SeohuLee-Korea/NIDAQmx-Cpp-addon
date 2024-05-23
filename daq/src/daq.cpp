@@ -240,6 +240,7 @@ void daq::clearData() {
 		return;
 	}
 
+	bData = false;
 	delete[] data; // free the buffer
 }
 
